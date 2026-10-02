@@ -1,0 +1,81 @@
+RESOLVESAATHI - COMPLETE WEBSITE SOURCE
+
+This package contains the existing four-page assignment website, ready for
+GitHub Pages. The website files are unchanged from the current local Site
+source. You do not need Node.js, npm, a database or any API keys.
+
+FILES
+
+index.html  - All four content pages and reference links.
+style.css   - Layout, colours, responsive styles, transitions and print styles.
+app.js      - Page navigation, workflow illustration and print button.
+.nojekyll   - Tells GitHub Pages to serve the files without a Jekyll build.
+START_HERE.txt - These publishing instructions; not part of the four pages.
+
+The four pages are Company, Agent, Moat and Business. They use hash navigation
+inside index.html. For example, #agent opens the Agent page. Relative CSS and
+JavaScript paths also work when GitHub hosts the site under a repository name.
+The exchange sequence is an illustration. It does not connect to real orders.
+
+PREVIEW ON YOUR COMPUTER
+
+1. Extract the ZIP first.
+2. Open the extracted folder named ResolveSaathi.
+3. Double-click index.html to open it in your browser.
+4. Keep style.css and app.js in the same folder as index.html.
+
+PUBLISH USING THE GITHUB WEBSITE
+
+1. Sign in at https://github.com/ and choose New repository.
+2. Name it resolvesaathi. Select Public for the simplest GitHub Free setup.
+   Enable Add README, then create the repository.
+3. Open the repository's Code tab. Select Add file > Upload files.
+4. Drag index.html, style.css, app.js and .nojekyll into the upload area.
+   Upload the FILES INSIDE the extracted folder, not the ZIP or outer folder.
+   They must appear beside README.md at the top level of the repository.
+   You can leave START_HERE.txt on your computer.
+5. Commit the uploaded files to main.
+6. Open Settings > Pages. Under Build and deployment, set Source to
+   Deploy from a branch. Choose main and /(root), then Save.
+7. Allow the Pages deployment to finish. GitHub says publication can take
+   up to 10 minutes. Check the Actions tab if it reports a failure.
+8. Return to Settings > Pages and use Visit site. Copy the address shown
+   there for your assignment submission.
+
+The usual project-site address follows this pattern:
+https://YOUR-USERNAME.github.io/resolvesaathi/
+This is a pattern, not an already deployed link.
+
+GitHub Pages publishes the website publicly. A public repository also makes
+the uploaded source files public. This archive contains only the website and
+this guide; the separate appendix and chat transcripts are not included.
+
+CHECK BEFORE SUBMITTING
+
+- Open the published URL in a private/incognito window.
+- Check all four navigation links and the Previous/Next controls.
+- Open Agent and click Play sequence.
+- Open Business and check the research reference links.
+- Check the layout on a phone or a narrow browser window.
+- Submit the separate one-page appendix alongside the website URL.
+
+UPDATING THE SITE
+
+Edit the relevant file, upload the updated file with the same name to main,
+and commit. GitHub Pages republishes changes from the configured branch.
+
+IF SOMETHING LOOKS WRONG
+
+404: Confirm that index.html is at the root, and Pages uses main / (root).
+Wait for the deployment to finish before checking again.
+
+Missing styling or controls: Confirm that style.css and app.js are beside
+index.html with exactly those lowercase names.
+
+Old version: Wait for deployment to finish, then refresh the page using
+Ctrl+Shift+R on Windows/Linux or Command+Shift+R on macOS.
+
+OFFICIAL GITHUB DOCUMENTATION
+
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
